@@ -7,8 +7,6 @@ See COPYING for usage terms.
 
 ]]
 
-local VERSION = "0.1.0"
-
 local T = wml.tag
 local _ = wesnoth.textdomain "wesnoth-Iris_Lighting_Magic"
 
@@ -240,7 +238,7 @@ local ilm_dlg = {
 							border_size = 5,
 							T.label {
 								definition = "default_tiny",
-								label = "v" .. VERSION
+								label = "v" .. ILM_VERSION
 							}
 						},
 						T.column {
