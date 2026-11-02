@@ -14,10 +14,6 @@ local _ = wesnoth.textdomain "wesnoth-Iris_Lighting_Magic"
 
 local HEX_ICON = "icons/action/minimap-draw-terrain_25.png"
 
-function wesnoth.wml_conditionals.debug_utilities_available()
-	return wesnoth.game_config.debug and naia_is_in_maintainer_mode()
-end
-
 local function color_clamp(c)
 	return mathx.clamp(c, 0, 255)
 end
